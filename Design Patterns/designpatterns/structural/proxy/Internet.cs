@@ -8,5 +8,6 @@ namespace Design_Patterns.designpatterns.structural.proxy
 {
     internal interface Internet
     {
+        void ConnectTo(string host);
     }
 }
